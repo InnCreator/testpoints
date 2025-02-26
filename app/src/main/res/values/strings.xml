@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">testpoints</string>
+    <string name="error_server">Ошибка сервера %d: %s</string>
+    <string name="error_network">Отсутвует подключение к интернету</string>
+    <string name="error_unknown">Неизвестная ошибка</string>
+    <string name="error">Ошибка</string>
+    <string name="loading">Загрузка…</string>
+    <string name="ok">Понятненько…</string>
+    <string name="error_main_invalid_count">Введите корректное число точек</string>
+    <string name="input_points">Введите число</string>
+    <string name="go">Поехали</string>
+    <string name="input_count_points">Введите количество точек</string>
+    <string name="smooth_lines">Плавные линии</string>
+    <string name="remove_points">Убрать точки</string>
+    <string name="remove_values">Убрать значения</string>
+    <string name="reduce_points">Уменьшить количество точек</string>
+</resources>

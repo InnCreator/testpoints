@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.inncreator.testpoints.features.main.MainFragment"
+        android:label="MainFragment"
+        tools:layout="@layout/fragment_main">
+        <action
+            android:id="@+id/action_mainFragment_to_pointsFragment"
+            app:destination="@id/pointsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pointsFragment"
+        android:name="com.inncreator.testpoints.features.points.PointsFragment"
+        android:label="PointsFragment"
+        tools:layout="@layout/fragment_points">
+        <argument
+            android:name="points"
+            app:argType="com.inncreator.testpoints.domain.models.ProcessedPoint[]" />
+    </fragment>
+</navigation>

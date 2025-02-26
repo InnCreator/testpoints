@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/smooth_lines"
+        android:checkable="true"
+        android:title="@string/smooth_lines" />
+
+    <item
+        android:id="@+id/remove_circles"
+        android:checkable="true"
+        android:title="@string/remove_points" />
+
+    <item
+        android:id="@+id/remove_values"
+        android:checkable="true"
+        android:title="@string/remove_values" />
+
+    <item
+        android:id="@+id/reduce_points"
+        android:checkable="true"
+        android:title="@string/reduce_points" />
+
+</menu>
